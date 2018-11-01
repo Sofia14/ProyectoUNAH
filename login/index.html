@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <meta name="Sofía Fajardo" content="">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap/css/bootstrap.css">
+    <script type="text/javascript" src="../js/jquery-3.3.1.js"></script>
+    <script src="../js/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+    <header class="sticky-top py-1 site-header">
+        <div class="container d-flex flex-column flex-md-row justify-content-between">
+            <a class="py-2" href="../">
+                <img src="../img/logo.png" width="60" height="60" class="d-inline-block align-top" alt="">
+            </a>
+            <a class="py-2 d-none d-md-inline-block" href="../">Página Principal</a>
+            <a class="py-2 d-none d-md-inline-block" href="#">Primer Ingreso</a>
+            <a class="py-2 d-none d-md-inline-block" href="#">Sistema de Postgrado</a>
+            <!-- <a class="py-2 d-none d-md-inline-block" href="#">Administración</a> -->
+            <a class="btn btn-outline-primary login" href="#">Login</a>
+        </div>
+    </header>
+    <main id="page" role="main">
+        <div class="jumbotron p-4"></div>
+        <div class="container">
+            <form class="w-75 mx-auto mb-3">
+                <div class="form-group">
+                    <label for="cuenta" id="cuentaLabel">No. Cuenta / No. Empleado / Codigo de Asigntura</label>
+                    <input type="cuenta" class="form-control" id="cuenta" placeholder="Ingrese el N° de Cuenta / N° de Empleado / Codigo de la Asigntura">
+                </div>
+                <div class="form-group">
+                    <label for="clave">Clave:</label>
+                    <input type="password" class="form-control" id="clave" placeholder="Ingrese la Clave">
+                </div>
+                <button type="submit" class="btn btn-primary">Ingresar</button>
+            </form>
+            <div class="alert alert-warning w-75 mx-auto" role="alert">
+                <li>Si tiene problemas para ingresar al sistema, favor comunicarse al Tel: 2232-6862</li>
+                <li>Para una mejor experiencia de navegación utilice los navegadores Internet Explorer o Google-Chrome</li>
+            </div>
+        </div>
+    </main>
+    <footer class="">
+        <div class="container">
+            <div class="inner text-center">
+                <p class="mb-1">© Derechos Reservados UNAH 2018</p>
+                <p class="mb-1"><a href="http://www.unah.edu.hn/?cat=1477&fcats" target="_blank">Dirección Ejecutiva de Gestión de Tecnología (DEGT)</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

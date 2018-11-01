@@ -1,0 +1,143 @@
+.site-header {
+    background-color: rgba(24, 63, 96, .95);
+}
+
+.site-header a {
+    color: #dcd5d5;
+    transition: ease-in-out color .15s;
+    margin: auto 0;
+}
+
+.site-header a.login {
+    padding-top: 0px;
+}
+
+.site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 10px;
+}
+
+.back-to-top {
+    background: none;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 70px;
+    height: 70px;
+    z-index: 100;
+    display: none;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ff9000;
+}
+
+.back-to-top i {
+    font-size: 60px;
+
+}
+
+.navegacion {
+    top: 83px;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    z-index: 9999;
+}
+
+.navegacion li {
+    padding: 1px 0px 1px 0px;
+    overflow: hidden;
+    direction: ltr;
+    border: 0;
+    display: block;
+    float: none;
+}
+
+.navegacion a:hover {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.navegacion li a {
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    background-color: #f1c11b;
+    box-sizing: content-box;
+    color: #ffffff !important;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+    text-transform: inherit;
+    transition: all 0.3s ease;
+    width: 170px;
+}
+
+.navegacion li a:focus {
+    outline: 0;
+    border: 0;
+}
+
+.navegacion li.facebook a:hover {
+    background-color: #3B5998;
+}
+
+.navegacion li a .social-text {
+    display: inline-block;
+    width: 130px;
+}
+
+.navegacion li a .social-image {
+    float: right;
+    right: 3px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+}
+
+.navegacion li a .social-image.facebook {
+    background-image: url(../img/social-icons.png);
+    background-position: 0 0;
+}
+
+.navegacion.left {
+    left: -140px;
+}
+
+.navegacion.left li {
+    left: 0;
+    position: relative;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: -webkit-transform 0.3s;
+    -moz-transition: -moz-transform 0.3s;
+    transition: transform 0.3s;
+}
+
+.navegacion.left li:hover {
+    -webkit-transform: translateX(140px);
+    -moz-transform: translateX(140px);
+    transform: translateX(140px);
+    -webkit-transition: -webkit-transform 0.3s;
+    -moz-transition: -moz-transform 0.3s;
+    transition: transform 0.3s;
+}
+
+.navegacion.left li a {
+    padding: 11px 0px 11px 10px;
+    margin-left: -2px;
+}
